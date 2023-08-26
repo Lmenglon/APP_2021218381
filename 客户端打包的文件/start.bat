@@ -1,0 +1,1 @@
+start javaw -jar APP_2021218381.jar

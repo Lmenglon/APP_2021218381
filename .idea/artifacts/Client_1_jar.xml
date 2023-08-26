@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Client_1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Client_1_jar</output-path>
+    <root id="archive" name="APP_2021218381.jar">
+      <element id="module-output" name="APP_2021218381" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../maven/maven-repository/org/openpnp/opencv/4.7.0-0/opencv-4.7.0-0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../maven/maven-repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../maven/maven-repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

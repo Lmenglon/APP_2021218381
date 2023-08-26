@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Frame.JFrame_Client">
+  <grid id="27dc6" binding="JPanel_main" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4211272"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="68df2" class="javax.swing.JLabel" binding="chat_user">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="4b4f2"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <scrollpane id="4b4f2">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4211272"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="343e7" binding="user_info" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <background color="-3091511"/>
+              <toolTipText value="在线用户名字"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </scrollpane>
+      <grid id="3c906" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4211272"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="40a84">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="2e518" class="javax.swing.JButton" binding="button_collect">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16021613"/>
+              <text value="采集"/>
+            </properties>
+          </component>
+          <component id="c3a5e" class="javax.swing.JButton" binding="button_communicate">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16021613"/>
+              <text value="实时通讯"/>
+            </properties>
+          </component>
+          <component id="98a36" class="javax.swing.JButton" binding="Button_send">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16021613"/>
+              <text value="传输"/>
+            </properties>
+          </component>
+          <component id="40d71" class="javax.swing.JButton" binding="button_watermark">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16021613"/>
+              <text value="水印"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="5afd8" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4211272"/>
+          <lineWrap value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
